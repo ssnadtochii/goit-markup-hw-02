@@ -39,8 +39,10 @@ body {
     color: #212121;
 }
 
+.page-header .current,
 .page-header .link:hover,
-.page-header .link:focus {
+.page-header .link:focus,
+.logo-blue {
     color: #2196F3;
 }
 
@@ -51,10 +53,6 @@ body {
     font-size: 2.6rem;
 
     text-decoration: none;
-}
-
-.logo-blue {
-    color: #2196F3;
 }
 
 .logo-black {
