@@ -3,7 +3,7 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit; 
+    box-sizing: inherit;
 }
 
 html {
@@ -16,12 +16,10 @@ body {
     font-family: 'Roboto';
     font-size: 1.4rem;
     line-height: 1.71;
-
     letter-spacing: 0.04rem;
 
     color: #757575;
 
-    max-width: 117rem;
     margin: 0 auto;
 }
 
@@ -29,8 +27,50 @@ body {
     margin: 0 auto;
 }
 
+.content-width {
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.space-bottom {
+    padding-bottom: 9.4rem;
+}
+
+.space-bottom-small {
+    margin-bottom: 3rem;
+}
+
+.space-bottom-extra-small {
+    margin-bottom: 2rem;
+}
+
+.space-bottom-tiny {
+    margin-bottom: .9rem;
+}
+
+.space-top {
+    padding-top: 9.4rem;
+}
+
+.space-right {
+    margin-right: 2.6rem;
+}
+
+.space-mid {
+    padding: 6rem 0;
+}
+
+.grey-background {
+    background: #F5F4FA;
+}
+
+.dark-grey-background {
+    background-color: #2F303A;
+}
+
 .page-header {
     padding: 2.5rem 0;
+    width: 100%;
 }
 
 .page-header .link {
@@ -42,6 +82,7 @@ body {
 .page-header .current,
 .page-header .link:hover,
 .page-header .link:focus,
+.page-header .link:visited,
 .logo-blue {
     color: #2196F3;
 }
@@ -57,6 +98,10 @@ body {
 
 .logo-black {
     color: #000;
+}
+
+.logo-white {
+    color: #FFFFFF;
 }
 
 .logo:hover,
@@ -135,4 +180,89 @@ body {
 
 .cta::after {
     background-color: #1186e7;
+}
+
+.visually-hidden {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features-list-item {
+    display: inline-block;
+    width: 27rem;
+}
+
+.features-list-item-heading {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+    color: #212121;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 5rem;
+
+    color: #212121;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-list-item {
+    display: inline-block;
+    height: 29.4rem;
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-list-item {
+    display: inline-block;
+    width: 27rem;
+    padding-bottom: 3rem;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.heading-name {
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+
+    color: #212121;
+    margin-bottom: 1rem;
+}
+
+.position {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list-item {
+    font-style: normal;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.contacts-list-item:hover {
+    text-decoration: underline;
 }
