@@ -56,6 +56,10 @@ body {
     margin-right: 2.6rem;
 }
 
+.space-right-portfolio {
+    margin-right: 2.6rem;
+}
+
 .space-mid {
     padding: 6rem 0;
 }
@@ -70,7 +74,7 @@ body {
 
 .page-header {
     padding: 2.5rem 0;
-    width: 100%;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .page-header .link {
@@ -82,7 +86,6 @@ body {
 .page-header .current,
 .page-header .link:hover,
 .page-header .link:focus,
-.page-header .link:visited,
 .logo-blue {
     color: #2196F3;
 }
@@ -133,7 +136,6 @@ body {
 .hero {
     background-color: #2F303A;
     padding: 20rem 0;
-    border-top: 1px solid #ECECEC;
 }
 
 .hero-title {
@@ -265,4 +267,62 @@ body {
 
 .contacts-list-item:hover {
     text-decoration: underline;
+}
+
+.filters-list {
+    list-style: none;
+    text-align: center;
+}
+
+.filters-list-item {
+    display: inline;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.62;
+
+    text-align: center;
+    color: #212121;
+
+    padding: .6rem 2.2rem;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.filters-list-item:hover, .selected {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-list-item {
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-list-item:hover, .selected {
+    border: 1px solid #2196F3;
+}
+
+.portfolio-item-name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2;
+    letter-spacing: 0.06rem;
+
+    color: #212121;
+    margin: 2rem 0 .4rem 2.4rem;
+}
+
+.portfolio-item-description {
+    line-height: 1.88;
+    color: #757575;
+    margin-left: 2.4rem;
+    margin-bottom: 2rem;
 }
