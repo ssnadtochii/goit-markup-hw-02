@@ -6,17 +6,13 @@
     box-sizing: inherit;
 }
 
-html {
-    font-size: 62.5%; 
-}
-
 body {
     box-sizing: border-box;
 
     font-family: 'Roboto';
-    font-size: 1.4rem;
+    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.03px;
 
     color: #757575;
 
@@ -28,40 +24,40 @@ body {
 }
 
 .content-width {
-    max-width: 117rem;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
 .space-bottom {
-    padding-bottom: 9.4rem;
+    padding-bottom: 94px;
 }
 
 .space-bottom-small {
-    margin-bottom: 3rem;
+    margin-bottom: 30px;
 }
 
 .space-bottom-extra-small {
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
 }
 
 .space-bottom-tiny {
-    margin-bottom: .9rem;
+    margin-bottom: 9px;
 }
 
 .space-top {
-    padding-top: 9.4rem;
+    padding-top: 94px;
 }
 
 .space-right {
-    margin-right: 2.6rem;
+    margin-right: 26px;
 }
 
 .space-right-portfolio {
-    margin-right: 2.6rem;
+    margin-right: 26px;
 }
 
 .space-mid {
-    padding: 6rem 0;
+    padding: 60px 0;
 }
 
 .grey-background {
@@ -73,7 +69,7 @@ body {
 }
 
 .page-header {
-    padding: 2.5rem 0;
+    padding: 25px 0;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -94,7 +90,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 26px;
 
     text-decoration: none;
 }
@@ -118,15 +114,15 @@ body {
 
 .site-nav {
     display: inline-block;
-    margin-left: 9.3rem;
+    margin-left: 93px;
 }
 
 .item {
-    margin-right: 5rem;
+    margin-right: 50px;
 }
 
 .header-contact {
-    margin-left: 20.9rem;
+    margin-left: 208px;
 }
 
 .header-contact .link {
@@ -135,22 +131,22 @@ body {
 
 .hero {
     background-color: #2F303A;
-    padding: 20rem 0;
+    padding: 200px 0;
 }
 
 .hero-title {
-    font-size: 4.4rem;
+    font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.6px;
     color: #FFFFFF;
 
     text-align: center;
     text-transform: uppercase;
 
-    width: 66rem;
+    width: 660px;
 
-    margin-bottom: 3rem;
+    margin-bottom: 30px;
 }
 
 .cta {
@@ -160,13 +156,13 @@ body {
     border: none;
     border-radius: 4px;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.6px;
 
     color: #FFFFFF;
 
-    padding: 1rem 3.2rem;
+    padding: 10px 32px;
 
     cursor: pointer;
 }
@@ -196,23 +192,23 @@ body {
 
 .features-list-item {
     display: inline-block;
-    width: 27rem;
+    width: 270px;
 }
 
 .features-list-item-heading {
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 
     color: #212121;
 }
 
 .heading {
     font-weight: 700;
-    font-size: 3.6rem;
+    font-size: 36px;
     line-height: 1.5;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 50px;
 
     color: #212121;
 }
@@ -223,7 +219,7 @@ body {
 
 .services-list-item {
     display: inline-block;
-    height: 29.4rem;
+    height: 294px;
 }
 
 .team-list {
@@ -232,8 +228,8 @@ body {
 
 .team-list-item {
     display: inline-block;
-    width: 27rem;
-    padding-bottom: 3rem;
+    width: 270px;
+    padding-bottom: 30px;
 
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -242,15 +238,15 @@ body {
 
 .heading-name {
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 16px;
     text-align: center;
 
     color: #212121;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .position {
-    font-size: 1.6rem;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -277,13 +273,13 @@ body {
 .filters-list-item {
     display: inline;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1.62;
 
     text-align: center;
     color: #212121;
 
-    padding: .6rem 2.2rem;
+    padding: 6px 22px;
     background-color: #F5F4FA;
     border-radius: 4px;
 }
@@ -312,17 +308,17 @@ body {
 
 .portfolio-item-name {
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06rem;
+    letter-spacing: 0.6px;
 
     color: #212121;
-    margin: 2rem 0 .4rem 2.4rem;
+    margin: 20px 0 4px 24px;
 }
 
 .portfolio-item-description {
     line-height: 1.88;
     color: #757575;
-    margin-left: 2.4rem;
-    margin-bottom: 2rem;
+    margin-left: 24px;
+    margin-bottom: 20px;
 }
